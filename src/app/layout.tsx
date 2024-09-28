@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         cz-shortcut-listen="false"
-        className={`${poppins.className} min-h-screen antialiased`}
+        className={`${poppins.className} antialiased`}
       >
         <StoreProvider> {children}</StoreProvider>
       </body>
